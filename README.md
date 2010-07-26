@@ -36,7 +36,7 @@ INSTALL TiAdMob4iPhone
 1. Open `Terminal`
 2. Run below command
 
-	python build.py && unzip ad-iphone-0.1.zip -d /Library/Application\ Support/Titanium/
+	`python build.py && unzip ad-iphone-0.1.zip -d /Library/Application\ Support/Titanium/`
 
 
 REGISTER TO YOUR PROJECT
