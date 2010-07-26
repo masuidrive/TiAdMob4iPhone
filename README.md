@@ -23,7 +23,7 @@ HOW TO USE IT
 	    refresh: 12.5
 	});
 	admob.addEventListener('error', function(error) {
-    	    alert(error.message);
+	    alert(error.message);
 	    window.remove(admob);
 	});
 	window.add(admob);
