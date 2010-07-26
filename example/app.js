@@ -6,12 +6,18 @@
 
 // open a single window
 var window = Ti.UI.createWindow({
-  backgroundColor:'white'
+  backgroundColor: '#0000ff'
 });
 
 var Ad = require('Ad');
-var admob = Ad.createAdMob();
+var admob = Ad.createAdMob({
+    publisher: "Your ID", // required
+    width: 320, // required
+    height: 48, // required
+    backgroundColor: "#ffffff",
+    primaryTextColor: "#000000",
+    secondaryTextColor: "#000000",
+    refresh: 12.5
+});
 window.add(admob);
 window.open();
-
-// TODO: write your module stuff here

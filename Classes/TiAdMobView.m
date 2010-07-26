@@ -34,16 +34,6 @@
 
 #pragma Internal
 
--(AdMobView*)admob
-{
-	if (admob==nil)
-	{
-        admob = [[AdMobView requestAdOfSize:ADMOB_SIZE_320x48 withDelegate:self] retain];
-        [self addSubview:admob];
-	}
-	return admob;
-}
-
 
 #pragma Delegates
 -(void)initializeState
@@ -59,7 +49,14 @@
 
 -(void)frameSizeChanged:(CGRect)frame bounds:(CGRect)bounds
 {
-	self.admob.frame = bounds;
+	NSLog(@"size=%f,%f",bounds.size.width, bounds.size.height);
+	if (admob==nil)
+	{
+        admob = [[AdMobView requestAdOfSize:bounds.size withDelegate:self] retain];
+        [self addSubview:admob];
+	}
+
+	//admob.frame = bounds;
 }
 
 - (NSString *)publisherIdForAd:(AdMobView *)adView {

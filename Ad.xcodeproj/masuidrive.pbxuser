@@ -258,6 +258,30 @@
 			5925BEEE11FD58E10079BBD1 /* PBXTextBookmark */ = 5925BEEE11FD58E10079BBD1 /* PBXTextBookmark */;
 			5925BEEF11FD58E10079BBD1 /* PBXTextBookmark */ = 5925BEEF11FD58E10079BBD1 /* PBXTextBookmark */;
 			5925BEF011FD58E10079BBD1 /* PBXTextBookmark */ = 5925BEF011FD58E10079BBD1 /* PBXTextBookmark */;
+			5925BEFD11FD5B230079BBD1 /* PBXTextBookmark */ = 5925BEFD11FD5B230079BBD1 /* PBXTextBookmark */;
+			5925BEFE11FD5B230079BBD1 /* PBXTextBookmark */ = 5925BEFE11FD5B230079BBD1 /* PBXTextBookmark */;
+			5925BEFF11FD5B230079BBD1 /* PBXTextBookmark */ = 5925BEFF11FD5B230079BBD1 /* PBXTextBookmark */;
+			5925BF0011FD5B230079BBD1 /* PBXTextBookmark */ = 5925BF0011FD5B230079BBD1 /* PBXTextBookmark */;
+			5925BF0111FD5BEE0079BBD1 /* PBXBookmark */ = 5925BF0111FD5BEE0079BBD1 /* PBXBookmark */;
+			5925BF0211FD5C2D0079BBD1 /* PBXTextBookmark */ = 5925BF0211FD5C2D0079BBD1 /* PBXTextBookmark */;
+			5925BF0511FD5C2D0079BBD1 /* PBXTextBookmark */ = 5925BF0511FD5C2D0079BBD1 /* PBXTextBookmark */;
+			5925BF0611FD5C540079BBD1 /* PBXTextBookmark */ = 5925BF0611FD5C540079BBD1 /* PBXTextBookmark */;
+			5925BF0711FD5C540079BBD1 /* PBXTextBookmark */ = 5925BF0711FD5C540079BBD1 /* PBXTextBookmark */;
+			5925BF0A11FD5CDC0079BBD1 /* PBXTextBookmark */ = 5925BF0A11FD5CDC0079BBD1 /* PBXTextBookmark */;
+			5925BF0B11FD5CDC0079BBD1 /* PBXTextBookmark */ = 5925BF0B11FD5CDC0079BBD1 /* PBXTextBookmark */;
+			5925BF0C11FD5CDC0079BBD1 /* PBXTextBookmark */ = 5925BF0C11FD5CDC0079BBD1 /* PBXTextBookmark */;
+			5925BF0D11FD5CDC0079BBD1 /* PBXTextBookmark */ = 5925BF0D11FD5CDC0079BBD1 /* PBXTextBookmark */;
+			5925BF0E11FD5D5B0079BBD1 /* PBXTextBookmark */ = 5925BF0E11FD5D5B0079BBD1 /* PBXTextBookmark */;
+			5925BF0F11FD5D5B0079BBD1 /* PBXTextBookmark */ = 5925BF0F11FD5D5B0079BBD1 /* PBXTextBookmark */;
+			5925BF1011FD5D5B0079BBD1 /* PBXTextBookmark */ = 5925BF1011FD5D5B0079BBD1 /* PBXTextBookmark */;
+			5925BF1111FD5D5B0079BBD1 /* PBXTextBookmark */ = 5925BF1111FD5D5B0079BBD1 /* PBXTextBookmark */;
+			5925BF1411FD5DA20079BBD1 /* PBXTextBookmark */ = 5925BF1411FD5DA20079BBD1 /* PBXTextBookmark */;
+			5925BF1711FD5E640079BBD1 /* PBXTextBookmark */ = 5925BF1711FD5E640079BBD1 /* PBXTextBookmark */;
+			5925BF1811FD5E640079BBD1 /* PBXTextBookmark */ = 5925BF1811FD5E640079BBD1 /* PBXTextBookmark */;
+			5925BF1911FD5E640079BBD1 /* PBXTextBookmark */ = 5925BF1911FD5E640079BBD1 /* PBXTextBookmark */;
+			5925BF2011FD5EFB0079BBD1 /* PBXTextBookmark */ = 5925BF2011FD5EFB0079BBD1 /* PBXTextBookmark */;
+			5925BF2111FD5EFB0079BBD1 /* PBXTextBookmark */ = 5925BF2111FD5EFB0079BBD1 /* PBXTextBookmark */;
+			5925BF2211FD5EFB0079BBD1 /* PBXTextBookmark */ = 5925BF2211FD5EFB0079BBD1 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 5925BC4C11FCEFE70079BBD1 /* Source Control */;
 		userBuildSettings = {
@@ -266,13 +290,13 @@
 	24DD6CF71134B3F500162E58 /* AdModule.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {975, 716}}";
-			sepNavSelRange = "{224, 0}";
+			sepNavSelRange = "{226, 0}";
 			sepNavVisRange = "{0, 232}";
 		};
 	};
 	24DD6CF81134B3F500162E58 /* AdModule.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 1196}}";
+			sepNavIntBoundsRect = "{{0, 0}, {481, 1157}}";
 			sepNavSelRange = "{2091, 0}";
 			sepNavVisRange = "{1334, 345}";
 		};
@@ -304,6 +328,14 @@
 			sepNavIntBoundsRect = "{{0, 0}, {975, 1066}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 2759}";
+		};
+	};
+	5925BC6A11FCF1590079BBD1 /* AdMobView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {975, 923}}";
+			sepNavSelRange = "{852, 18}";
+			sepNavVisRange = "{120, 2309}";
+			sepNavWindowFrame = "{{15, 4}, {918, 874}}";
 		};
 	};
 	5925BC6C11FCF15A0079BBD1 /* AdMobInterstitialAd.h */ = {
@@ -1592,9 +1624,10 @@
 	};
 	5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {859, 1872}}";
-			sepNavSelRange = "{1783, 0}";
-			sepNavVisRange = "{0, 1227}";
+			sepNavIntBoundsRect = "{{0, 0}, {975, 1976}}";
+			sepNavSelRange = "{1310, 0}";
+			sepNavVisRange = "{424, 1189}";
+			sepNavWindowFrame = "{{15, 4}, {918, 874}}";
 		};
 	};
 	5925BE1111FD2FF60079BBD1 /* TiAdMobViewProxy.m */ = {
@@ -1607,7 +1640,7 @@
 	5925BE1211FD2FF60079BBD1 /* TiAdMobView.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {975, 716}}";
-			sepNavSelRange = "{401, 0}";
+			sepNavSelRange = "{803, 0}";
 			sepNavVisRange = "{0, 809}";
 		};
 	};
@@ -1667,7 +1700,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1388;
 		rType = 0;
 		vrLen = 1859;
 		vrLoc = 706;
@@ -1717,7 +1750,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1388;
 		rType = 0;
 		vrLen = 1799;
 		vrLoc = 766;
@@ -1787,7 +1820,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1388;
 		rType = 0;
 		vrLen = 1799;
 		vrLoc = 766;
@@ -1797,7 +1830,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 42";
 		rLen = 0;
-		rLoc = 1374;
+		rLoc = 1388;
 		rType = 0;
 		vrLen = 1423;
 		vrLoc = 283;
@@ -1817,7 +1850,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 43";
 		rLen = 0;
-		rLoc = 1387;
+		rLoc = 1401;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 283;
@@ -1907,7 +1940,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 44";
 		rLen = 0;
-		rLoc = 1320;
+		rLoc = 1334;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 444;
@@ -1917,7 +1950,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 44";
 		rLen = 0;
-		rLoc = 1320;
+		rLoc = 1334;
 		rType = 0;
 		vrLen = 1550;
 		vrLoc = 444;
@@ -1927,7 +1960,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 44";
 		rLen = 0;
-		rLoc = 1320;
+		rLoc = 1334;
 		rType = 0;
 		vrLen = 1547;
 		vrLoc = 444;
@@ -1937,7 +1970,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 42";
 		rLen = 0;
-		rLoc = 1320;
+		rLoc = 1334;
 		rType = 0;
 		vrLen = 1548;
 		vrLoc = 444;
@@ -1947,7 +1980,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 44";
 		rLen = 0;
-		rLoc = 1320;
+		rLoc = 1334;
 		rType = 0;
 		vrLen = 1551;
 		vrLoc = 444;
@@ -1957,7 +1990,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 101";
 		rLen = 0;
-		rLoc = 3354;
+		rLoc = 3368;
 		rType = 0;
 		vrLen = 1725;
 		vrLoc = 914;
@@ -1991,7 +2024,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 69";
 		rLen = 16;
-		rLoc = 1613;
+		rLoc = 1627;
 		rType = 0;
 		vrLen = 1725;
 		vrLoc = 914;
@@ -2041,7 +2074,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 65";
 		rLen = 0;
-		rLoc = 1783;
+		rLoc = 1797;
 		rType = 0;
 		vrLen = 1689;
 		vrLoc = 914;
@@ -2051,7 +2084,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 95";
 		rLen = 0;
-		rLoc = 2611;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1683;
 		vrLoc = 1005;
@@ -2061,7 +2094,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 94";
 		rLen = 0;
-		rLoc = 2610;
+		rLoc = 2624;
 		rType = 0;
 		vrLen = 1611;
 		vrLoc = 1159;
@@ -2071,7 +2104,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 95";
 		rLen = 0;
-		rLoc = 2611;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1701;
 		vrLoc = 1005;
@@ -2081,7 +2114,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 41";
 		rLen = 0;
-		rLoc = 938;
+		rLoc = 754;
 		rType = 0;
 		vrLen = 1321;
 		vrLoc = 283;
@@ -2091,7 +2124,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 97";
 		rLen = 0;
-		rLoc = 2611;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1701;
 		vrLoc = 1024;
@@ -2111,7 +2144,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 100";
 		rLen = 0;
-		rLoc = 2611;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1701;
 		vrLoc = 1043;
@@ -2121,7 +2154,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 123";
 		rLen = 0;
-		rLoc = 3327;
+		rLoc = 3341;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 1706;
@@ -2131,7 +2164,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 103";
 		rLen = 0;
-		rLoc = 2611;
+		rLoc = 2625;
 		rType = 0;
 		vrLen = 1701;
 		vrLoc = 1067;
@@ -2141,7 +2174,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 123";
 		rLen = 0;
-		rLoc = 3327;
+		rLoc = 3341;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 1706;
@@ -2171,7 +2204,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 65";
 		rLen = 0;
-		rLoc = 1597;
+		rLoc = 1611;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 956;
@@ -2231,7 +2264,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 66";
 		rLen = 0;
-		rLoc = 1597;
+		rLoc = 1611;
 		rType = 0;
 		vrLen = 1757;
 		vrLoc = 1088;
@@ -2251,7 +2284,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 76";
 		rLen = 0;
-		rLoc = 1785;
+		rLoc = 1799;
 		rType = 0;
 		vrLen = 1792;
 		vrLoc = 924;
@@ -2291,7 +2324,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 129";
 		rLen = 0;
-		rLoc = 3327;
+		rLoc = 3341;
 		rType = 0;
 		vrLen = 1367;
 		vrLoc = 1856;
@@ -2301,7 +2334,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 72";
 		rLen = 0;
-		rLoc = 1658;
+		rLoc = 1672;
 		rType = 0;
 		vrLen = 1715;
 		vrLoc = 979;
@@ -2311,7 +2344,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 80";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1765;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 0;
@@ -2321,7 +2354,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 125";
 		rLen = 0;
-		rLoc = 3089;
+		rLoc = 3103;
 		rType = 0;
 		vrLen = 1317;
 		vrLoc = 2026;
@@ -2331,7 +2364,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 80";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1765;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 0;
@@ -2351,7 +2384,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 125";
 		rLen = 0;
-		rLoc = 3089;
+		rLoc = 3103;
 		rType = 0;
 		vrLen = 1740;
 		vrLoc = 1171;
@@ -2361,7 +2394,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 125";
 		rLen = 0;
-		rLoc = 3089;
+		rLoc = 3103;
 		rType = 0;
 		vrLen = 1797;
 		vrLoc = 998;
@@ -2371,7 +2404,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 80";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1765;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 0;
@@ -2381,7 +2414,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 66";
 		rLen = 0;
-		rLoc = 1580;
+		rLoc = 1594;
 		rType = 0;
 		vrLen = 1766;
 		vrLoc = 998;
@@ -2391,7 +2424,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 79";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1765;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 0;
@@ -2411,7 +2444,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 79";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1765;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 0;
@@ -2421,7 +2454,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 150";
 		rLen = 0;
-		rLoc = 3327;
+		rLoc = 3341;
 		rType = 0;
 		vrLen = 1118;
 		vrLoc = 2393;
@@ -2431,7 +2464,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 79";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1765;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 0;
@@ -2451,7 +2484,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 141";
 		rLen = 0;
-		rLoc = 3186;
+		rLoc = 3200;
 		rType = 0;
 		vrLen = 1117;
 		vrLoc = 2310;
@@ -2461,7 +2494,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 141";
 		rLen = 0;
-		rLoc = 3186;
+		rLoc = 3200;
 		rType = 0;
 		vrLen = 1117;
 		vrLoc = 2310;
@@ -2471,7 +2504,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 78";
 		rLen = 0;
-		rLoc = 1751;
+		rLoc = 1765;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 0;
@@ -2481,7 +2514,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 70";
 		rLen = 0;
-		rLoc = 1686;
+		rLoc = 1700;
 		rType = 0;
 		vrLen = 1431;
 		vrLoc = 1071;
@@ -2491,7 +2524,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 75";
 		rLen = 0;
-		rLoc = 1783;
+		rLoc = 1797;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 0;
@@ -2501,7 +2534,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 66";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1588;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 795;
@@ -2511,7 +2544,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 75";
 		rLen = 0;
-		rLoc = 1783;
+		rLoc = 1797;
 		rType = 0;
 		vrLen = 1153;
 		vrLoc = 0;
@@ -2521,7 +2554,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 58";
 		rLen = 0;
-		rLoc = 1226;
+		rLoc = 1041;
 		rType = 0;
 		vrLen = 1363;
 		vrLoc = 962;
@@ -2531,7 +2564,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 84";
 		rLen = 0;
-		rLoc = 1783;
+		rLoc = 1797;
 		rType = 0;
 		vrLen = 1221;
 		vrLoc = 0;
@@ -2541,7 +2574,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 52";
 		rLen = 0;
-		rLoc = 1053;
+		rLoc = 868;
 		rType = 0;
 		vrLen = 1366;
 		vrLoc = 962;
@@ -2551,7 +2584,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 84";
 		rLen = 0;
-		rLoc = 1783;
+		rLoc = 1797;
 		rType = 0;
 		vrLen = 1224;
 		vrLoc = 0;
@@ -2561,7 +2594,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 52";
 		rLen = 0;
-		rLoc = 1007;
+		rLoc = 822;
 		rType = 0;
 		vrLen = 1343;
 		vrLoc = 962;
@@ -2571,7 +2604,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 85";
 		rLen = 0;
-		rLoc = 1783;
+		rLoc = 1797;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 0;
@@ -2581,7 +2614,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 55";
 		rLen = 0;
-		rLoc = 1142;
+		rLoc = 957;
 		rType = 0;
 		vrLen = 1343;
 		vrLoc = 962;
@@ -2591,7 +2624,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 85";
 		rLen = 0;
-		rLoc = 1783;
+		rLoc = 1797;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 0;
@@ -2601,7 +2634,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 76";
 		rLen = 0;
-		rLoc = 1567;
+		rLoc = 1581;
 		rType = 0;
 		vrLen = 1381;
 		vrLoc = 962;
@@ -2611,7 +2644,7 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 86";
 		rLen = 0;
-		rLoc = 1783;
+		rLoc = 1797;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 0;
@@ -2651,10 +2684,244 @@
 		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
 		name = "TiAdMobView.m: 83";
 		rLen = 0;
-		rLoc = 1783;
+		rLoc = 1797;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 0;
+	};
+	5925BEFD11FD5B230079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
+		name = "TiAdMobView.m: 31";
+		rLen = 0;
+		rLoc = 713;
+		rType = 0;
+		vrLen = 1085;
+		vrLoc = 424;
+	};
+	5925BEFE11FD5B230079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BE1211FD2FF60079BBD1 /* TiAdMobView.h */;
+		name = "TiAdMobView.h: 30";
+		rLen = 0;
+		rLoc = 803;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	5925BEFF11FD5B230079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* AdModule.h */;
+		name = "AdModule.h: 12";
+		rLen = 0;
+		rLoc = 224;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	5925BF0011FD5B230079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* AdModule.h */;
+		name = "AdModule.h: 17";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 0;
+	};
+	5925BF0111FD5BEE0079BBD1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5925BC6A11FCF1590079BBD1 /* AdMobView.h */;
+	};
+	5925BF0211FD5C2D0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* AdModule.h */;
+		name = "AdModule.h: 17";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 471;
+		vrLoc = 0;
+	};
+	5925BF0511FD5C2D0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BC6A11FCF1590079BBD1 /* AdMobView.h */;
+		name = "AdMobView.h: 24";
+		rLen = 18;
+		rLoc = 830;
+		rType = 0;
+		vrLen = 2355;
+		vrLoc = 0;
+	};
+	5925BF0611FD5C540079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* AdModule.h */;
+		name = "AdModule.h: 14";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	5925BF0711FD5C540079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BC6A11FCF1590079BBD1 /* AdMobView.h */;
+		name = "AdMobView.h: 24";
+		rLen = 18;
+		rLoc = 830;
+		rType = 0;
+		vrLen = 2355;
+		vrLoc = 0;
+	};
+	5925BF0A11FD5CDC0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* AdModule.h */;
+		name = "AdModule.h: 14";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	5925BF0B11FD5CDC0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF81134B3F500162E58 /* AdModule.m */;
+		name = "AdModule.m: 87";
+		rLen = 0;
+		rLoc = 2095;
+		rType = 0;
+		vrLen = 1471;
+		vrLoc = 624;
+	};
+	5925BF0C11FD5CDC0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF81134B3F500162E58 /* AdModule.m */;
+		name = "AdModule.m: 79";
+		rLen = 0;
+		rLoc = 1789;
+		rType = 0;
+		vrLen = 1475;
+		vrLoc = 624;
+	};
+	5925BF0D11FD5CDC0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BC6A11FCF1590079BBD1 /* AdMobView.h */;
+		name = "AdMobView.h: 24";
+		rLen = 18;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 2355;
+		vrLoc = 0;
+	};
+	5925BF0E11FD5D5B0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF81134B3F500162E58 /* AdModule.m */;
+		name = "AdModule.m: 79";
+		rLen = 0;
+		rLoc = 1790;
+		rType = 0;
+		vrLen = 1471;
+		vrLoc = 624;
+	};
+	5925BF0F11FD5D5B0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* AdModule.h */;
+		name = "AdModule.h: 14";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	5925BF1011FD5D5B0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* AdModule.h */;
+		name = "AdModule.h: 13";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	5925BF1111FD5D5B0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BC6A11FCF1590079BBD1 /* AdMobView.h */;
+		name = "AdMobView.h: 24";
+		rLen = 18;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 2355;
+		vrLoc = 0;
+	};
+	5925BF1411FD5DA20079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* AdModule.h */;
+		name = "AdModule.h: 13";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	5925BF1711FD5E640079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 24DD6CF71134B3F500162E58 /* AdModule.h */;
+		name = "AdModule.h: 13";
+		rLen = 0;
+		rLoc = 226;
+		rType = 0;
+		vrLen = 232;
+		vrLoc = 0;
+	};
+	5925BF1811FD5E640079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BC6A11FCF1590079BBD1 /* AdMobView.h */;
+		name = "AdMobView.h: 24";
+		rLen = 18;
+		rLoc = 852;
+		rType = 0;
+		vrLen = 2309;
+		vrLoc = 120;
+	};
+	5925BF1911FD5E640079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
+		name = "TiAdMobView.m: 62";
+		rLen = 0;
+		rLoc = 1307;
+		rType = 0;
+		vrLen = 1188;
+		vrLoc = 658;
+	};
+	5925BF2011FD5EFB0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BE1211FD2FF60079BBD1 /* TiAdMobView.h */;
+		name = "TiAdMobView.h: 30";
+		rLen = 0;
+		rLoc = 803;
+		rType = 0;
+		vrLen = 809;
+		vrLoc = 0;
+	};
+	5925BF2111FD5EFB0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
+		name = "TiAdMobView.m: 62";
+		rLen = 0;
+		rLoc = 1307;
+		rType = 0;
+		vrLen = 1188;
+		vrLoc = 658;
+	};
+	5925BF2211FD5EFB0079BBD1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */;
+		name = "TiAdMobView.m: 59";
+		rLen = 0;
+		rLoc = 1310;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 424;
 	};
 	D2AAC07D0554694100DB518D /* Ad */ = {
 		activeExec = 0;

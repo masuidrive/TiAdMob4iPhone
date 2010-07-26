@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>5925BE5A11FD411A0079BBD1</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>TiAdMobView.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>5925BE5B11FD411A0079BBD1</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>TiAdMobView.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>5925BEF011FD58E10079BBD1</string>
-						<key>history</key>
-						<array>
-							<string>5925BE5611FD40560079BBD1</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {918, 777}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>15 60 918 818 0 0 1440 878 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -270,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -352,6 +309,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -369,16 +328,17 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5925BEEF11FD58E10079BBD1</string>
+										<string>5925BF2211FD5EFB0079BBD1</string>
 										<key>history</key>
 										<array>
 											<string>5925BE1E11FD33090079BBD1</string>
-											<string>5925BE3011FD3CC40079BBD1</string>
-											<string>5925BE4411FD3E920079BBD1</string>
 											<string>5925BEA811FD50D90079BBD1</string>
 											<string>5925BEA911FD50D90079BBD1</string>
-											<string>5925BEED11FD58E10079BBD1</string>
-											<string>5925BEEE11FD58E10079BBD1</string>
+											<string>5925BF0E11FD5D5B0079BBD1</string>
+											<string>5925BF1711FD5E640079BBD1</string>
+											<string>5925BF1811FD5E640079BBD1</string>
+											<string>5925BF2011FD5EFB0079BBD1</string>
+											<string>5925BF2111FD5EFB0079BBD1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -579,7 +539,6 @@
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>5925BC5411FCF1050079BBD1</string>
-		<string>5925BE5A11FD411A0079BBD1</string>
 		<string>/Users/masuidrive/Develop/ti/Ad/Ad.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
