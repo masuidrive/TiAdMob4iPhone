@@ -19,5 +19,10 @@ var admob = Ad.createAdMob({
     secondaryTextColor: "#000000",
     refresh: 12.5
 });
+admob.addEventListener('error', function(error) {
+    alert(error.message);
+    window.remove(admob);
+});
+
 window.add(admob);
 window.open();

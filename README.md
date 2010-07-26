@@ -22,6 +22,10 @@ HOW TO USE IT
 	    secondaryTextColor: "#000000",
 	    refresh: 12.5
 	});
+	admob.addEventListener('error', function(error) {
+    	    alert(error.message);
+	    window.remove(admob);
+	});
 	window.add(admob);
 	window.open();
 
@@ -51,4 +55,5 @@ dependencies and copy appropriate image assets into the application.
 LICENSE
 ---------------------
 MIT License
+
 Copyright 2010 Yuichiro MASUI (masuidrive)

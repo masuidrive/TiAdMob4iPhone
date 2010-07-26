@@ -20,7 +20,6 @@
 	float refresh;
 	UIColor* primaryTextColor;
 	UIColor* secondaryTextColor;
-	
 }
 @property (nonatomic, retain) NSString* publisher;
 @property (nonatomic, assign) BOOL test;

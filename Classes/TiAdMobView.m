@@ -21,6 +21,7 @@
 
 -(void)dealloc
 {
+	NSLog(@"ad>dealloc");
 	self.publisher = nil;
 	self.backgroundColor = nil;
 	self.primaryTextColor = nil;
@@ -29,6 +30,28 @@
 	RELEASE_TO_NIL(refreshTimer);
 	RELEASE_TO_NIL(admob);
 	[super dealloc];
+}
+
+
+#pragma mark Listener Notifications
+
+-(void)_listenerAdded:(NSString *)type count:(int)count
+{
+	if (count == 1 && [type isEqualToString:@"failed"])
+	{
+		// the first (of potentially many) listener is being added 
+		// for event named 'my_event'
+	}
+}
+
+-(void)_listenerRemoved:(NSString *)type count:(int)count
+{
+	if (count == 0 && [type isEqualToString:@"failed"])
+	{
+		// the last listener called for event named 'my_event' has
+		// been removed, we can optionally clean up any resources
+		// since no body is listening at this point for that event
+	}
 }
 
 
@@ -49,14 +72,12 @@
 
 -(void)frameSizeChanged:(CGRect)frame bounds:(CGRect)bounds
 {
-	NSLog(@"size=%f,%f",bounds.size.width, bounds.size.height);
 	if (admob==nil)
 	{
         admob = [[AdMobView requestAdOfSize:bounds.size withDelegate:self] retain];
         [self addSubview:admob];
 	}
-
-	//admob.frame = bounds;
+	admob.frame = bounds;
 }
 
 - (NSString *)publisherIdForAd:(AdMobView *)adView {
@@ -88,7 +109,6 @@
 }
 
 - (void)didReceiveAd:(AdMobView *)adView {
-	NSLog(@"AdMob: Did receive ad");
 	[refreshTimer invalidate];
 	refreshTimer = [NSTimer scheduledTimerWithTimeInterval:(refresh > AD_REFRESH_PERIOD ? refresh : AD_REFRESH_PERIOD)
 													target:self
@@ -98,11 +118,11 @@
 }
 
 - (void)didFailToReceiveAd:(AdMobView *)adView {
-	NSLog(@"AdMob: Did fail to receive ad");
-	//[adMobAd removeFromSuperview];  // Not necessary since never added to a view, but doesn't hurt and is good practice
-	//[adMobAd release];
-	//adMobAd = nil;
-	// we could start a new ad request here, but in the interests of the user's battery life, let's not
+	if ([self.proxy _hasListeners:@"error"])
+	{
+		NSDictionary* error = [NSDictionary dictionaryWithObjectsAndKeys: @"Did fail to receive ad" ,@"message", nil];
+		[self.proxy fireEvent:@"error" withObject:error];
+	}
 }
 
 #pragma Properties
