@@ -14,7 +14,7 @@
 
 
 @implementation TiAdMobView
-@synthesize publisher, test, refresh, primaryTextColor, secondaryTextColor;
+@synthesize publisher, test, refresh, adBackgroundColor, primaryTextColor, secondaryTextColor;
 
 
 #pragma mark Cleanup 
@@ -40,9 +40,9 @@
 -(void)initializeState
 {
 	[super initializeState];
-	self.backgroundColor = [UIColor clearColor];
-	self.primaryTextColor = [UIColor blackColor];
-	self.secondaryTextColor = [UIColor blackColor];
+	self.adBackgroundColor = [UIColor blackColor];
+	self.primaryTextColor = [UIColor whiteColor];
+	self.secondaryTextColor = [UIColor whiteColor];
 	self.test = NO;
 	self.publisher = @"";
 	self.refresh = AD_REFRESH_PERIOD;
@@ -67,7 +67,7 @@
 }
 
 - (UIColor *)adBackgroundColorForAd:(AdMobView *)adView {
-	return self.backgroundColor;
+	return self.adBackgroundColor;
 }
 
 - (UIColor *)primaryTextColorForAd:(AdMobView *)adView {
@@ -118,6 +118,19 @@
 -(void)setRefresh_:(id)refresh_
 {
 	self.refresh = [TiUtils floatValue:refresh_];
+}
+
+-(void)setAdBackgroundColor_:(id)color
+{
+	if ([color isKindOfClass:[UIColor class]])
+	{
+		self.adBackgroundColor = color;
+	}
+	else
+	{
+		TiColor *ticolor = [TiUtils colorValue:color];
+		self.adBackgroundColor = [ticolor _color];
+	}
 }
 
 -(void)setPrimaryTextColor_:(id)color
