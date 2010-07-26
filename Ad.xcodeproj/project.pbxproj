@@ -143,10 +143,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */,
-				5925BE1111FD2FF60079BBD1 /* TiAdMobViewProxy.m */,
 				5925BE1211FD2FF60079BBD1 /* TiAdMobView.h */,
+				5925BE1011FD2FF60079BBD1 /* TiAdMobView.m */,
 				5925BE1311FD2FF60079BBD1 /* TiAdMobViewProxy.h */,
+				5925BE1111FD2FF60079BBD1 /* TiAdMobViewProxy.m */,
 				24DD6CF71134B3F500162E58 /* AdModule.h */,
 				24DD6CF81134B3F500162E58 /* AdModule.m */,
 			);

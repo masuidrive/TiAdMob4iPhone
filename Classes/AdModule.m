@@ -78,7 +78,10 @@
 
 -(id)createAdMob:(id)args
 {
-	return [[TiAdMobViewProxy alloc] _initWithPageContext:[self pageContext]];
+	ENSURE_SINGLE_ARG_OR_NIL(args, NSDictionary);
+	NSDictionary* dict = args ? args : [NSDictionary dictionary];
+	NSLog(@"createAdMob: %@", dict);
+	return [[[TiAdMobViewProxy alloc] _initWithPageContext:[self pageContext] args:[NSArray arrayWithObject:dict]] autorelease];
 }
 
 @end

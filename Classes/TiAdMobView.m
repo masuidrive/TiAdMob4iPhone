@@ -8,23 +8,34 @@
 #import "TiAdMobView.h"
 #import "TiUtils.h"
 #import "TiApp.h"
+#import "Webcolor.h"
 
 #define AD_REFRESH_PERIOD 12.5 // display fresh ads every 12.5 seconds
 
 
 @implementation TiAdMobView
+@synthesize publisher, test, refresh, primaryTextColor, secondaryTextColor;
+
+
+#pragma mark Cleanup 
 
 -(void)dealloc
 {
+	self.publisher = nil;
+	self.backgroundColor = nil;
+	self.primaryTextColor = nil;
+	self.secondaryTextColor = nil;
+	
 	RELEASE_TO_NIL(refreshTimer);
 	RELEASE_TO_NIL(admob);
-	RELEASE_TO_NIL(view);
 	[super dealloc];
 }
 
+
+#pragma Internal
+
 -(AdMobView*)admob
 {
-	NSLog(@"admob");
 	if (admob==nil)
 	{
         admob = [[AdMobView requestAdOfSize:ADMOB_SIZE_320x48 withDelegate:self] retain];
@@ -34,53 +45,61 @@
 }
 
 
+#pragma Delegates
+-(void)initializeState
+{
+	[super initializeState];
+	self.backgroundColor = [UIColor clearColor];
+	self.primaryTextColor = [UIColor blackColor];
+	self.secondaryTextColor = [UIColor blackColor];
+	self.test = NO;
+	self.publisher = @"";
+	self.refresh = AD_REFRESH_PERIOD;
+}
+
 -(void)frameSizeChanged:(CGRect)frame bounds:(CGRect)bounds
 {
-	NSLog(@"frameSizeChanged:%f,%f", bounds.size.width, bounds.size.height);
 	self.admob.frame = bounds;
 }
 
 - (NSString *)publisherIdForAd:(AdMobView *)adView {
-	NSLog(@"publisherIdForAd");
-	return @"XXXXXXXXXXX"; // this should be prefilled; if not, get it from www.admob.com
+	return self.publisher;
 }
 
 - (UIViewController *)currentViewControllerForAd:(AdMobView *)adView {
-	UIViewController *controller = [[TiApp app] controller];
-	NSLog(@"current=%@", controller);
-	return controller;
-	//	return nil;
+	return [[TiApp app] controller];
 }
+
+- (UIColor *)adBackgroundColorForAd:(AdMobView *)adView {
+	return self.backgroundColor;
+}
+
+- (UIColor *)primaryTextColorForAd:(AdMobView *)adView {
+	return self.primaryTextColor;
+}
+
+- (UIColor *)secondaryTextColorForAd:(AdMobView *)adView {
+	return self.secondaryTextColor;
+}
+
+- (BOOL)useTestAd {
+	return test;
+}
+
 - (void)refreshAd:(NSTimer *)timer {
 	[admob requestFreshAd];
 }
 
-- (UIColor *)adBackgroundColorForAd:(AdMobView *)adView {
-	return [UIColor colorWithRed:0 green:0 blue:0 alpha:1]; // this should be prefilled; if not, provide a UIColor
-}
-
-- (UIColor *)primaryTextColorForAd:(AdMobView *)adView {
-	return [UIColor colorWithRed:1 green:1 blue:1 alpha:1]; // this should be prefilled; if not, provide a UIColor
-}
-
-- (UIColor *)secondaryTextColorForAd:(AdMobView *)adView {
-	return [UIColor colorWithRed:1 green:1 blue:1 alpha:1]; // this should be prefilled; if not, provide a UIColor
-}
-
-// Sent when an ad request loaded an ad; this is a good opportunity to attach
-// the ad view to the hierachy.
 - (void)didReceiveAd:(AdMobView *)adView {
 	NSLog(@"AdMob: Did receive ad");
-	// get the view frame
-	// put the ad at the bottom of the screen
-	admob.frame = CGRectMake(0, 0, 320, 48);
-	
-	//[view addSubview:adMobAd];
 	[refreshTimer invalidate];
-	refreshTimer = [NSTimer scheduledTimerWithTimeInterval:AD_REFRESH_PERIOD target:self selector:@selector(refreshAd:) userInfo:nil repeats:YES];
+	refreshTimer = [NSTimer scheduledTimerWithTimeInterval:(refresh > AD_REFRESH_PERIOD ? refresh : AD_REFRESH_PERIOD)
+													target:self
+												  selector:@selector(refreshAd:)
+												  userInfo:nil
+												   repeats:YES];
 }
 
-// Sent when an ad request failed to load an ad
 - (void)didFailToReceiveAd:(AdMobView *)adView {
 	NSLog(@"AdMob: Did fail to receive ad");
 	//[adMobAd removeFromSuperview];  // Not necessary since never added to a view, but doesn't hurt and is good practice
@@ -89,10 +108,49 @@
 	// we could start a new ad request here, but in the interests of the user's battery life, let's not
 }
 
+#pragma Properties
 
-- (BOOL)useTestAd {
-	NSLog(@"useTestAd");
-	return YES;
+-(void)setPublisher_:(id)publisher_
+{
+	self.publisher = [TiUtils stringValue:publisher_];
 }
+
+-(void)setTest_:(id)test_
+{
+	self.test = [TiUtils boolValue:test_];
+}
+
+-(void)setRefresh_:(id)refresh_
+{
+	self.refresh = [TiUtils floatValue:refresh_];
+}
+
+-(void)setPrimaryTextColor_:(id)color
+{
+	if ([color isKindOfClass:[UIColor class]])
+	{
+		self.primaryTextColor = color;
+	}
+	else
+	{
+		TiColor *ticolor = [TiUtils colorValue:color];
+		self.primaryTextColor = [ticolor _color];
+	}
+}
+
+-(void)setSecondaryTextColor_:(id)color
+{
+	if ([color isKindOfClass:[UIColor class]])
+	{
+		self.secondaryTextColor = color;
+	}
+	else
+	{
+		TiColor *ticolor = [TiUtils colorValue:color];
+		self.secondaryTextColor = [ticolor _color];
+	}
+}
+
+#pragma Public APIs
 
 @end
