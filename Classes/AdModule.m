@@ -22,7 +22,6 @@
 	// this method is called when the module is first loaded
 	// you *must* call the superclass
 	[super startup];
-	
 	NSLog(@"[INFO] %@ loaded",self);
 }
 
@@ -80,7 +79,6 @@
 {
 	ENSURE_SINGLE_ARG_OR_NIL(args, NSDictionary);
 	NSDictionary* dict = args ? args : [NSDictionary dictionary];
-	NSLog(@"createAdMob: %@", dict);
 	return [[[TiAdMobViewProxy alloc] _initWithPageContext:[self pageContext] args:[NSArray arrayWithObject:dict]] autorelease];
 }
 

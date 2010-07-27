@@ -21,7 +21,6 @@
 
 -(void)dealloc
 {
-	NSLog(@"ad>dealloc");
 	self.publisher = nil;
 	self.backgroundColor = nil;
 	self.primaryTextColor = nil;
