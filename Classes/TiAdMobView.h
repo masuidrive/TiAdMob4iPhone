@@ -21,6 +21,8 @@
 	UIColor* adBackgroundColor;
 	UIColor* primaryTextColor;
 	UIColor* secondaryTextColor;
+	float width, height;
+	
 }
 @property (nonatomic, retain) NSString* publisher;
 @property (nonatomic, assign) BOOL test;

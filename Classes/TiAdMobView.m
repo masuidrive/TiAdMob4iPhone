@@ -51,10 +51,10 @@
 {
 	if (admob==nil)
 	{
-        admob = [[AdMobView requestAdOfSize:bounds.size withDelegate:self] retain];
+        admob = [[AdMobView requestAdOfSize:CGSizeMake(width, height) withDelegate:self] retain];
         [self addSubview:admob];
 	}
-	admob.frame = bounds;
+	admob.frame = CGRectMake(0, 0, width, height);
 }
 
 - (NSString *)publisherIdForAd:(AdMobView *)adView {
@@ -95,6 +95,7 @@
 }
 
 - (void)didFailToReceiveAd:(AdMobView *)adView {
+	[refreshTimer invalidate];
 	if ([self.proxy _hasListeners:@"error"])
 	{
 		NSDictionary* error = [NSDictionary dictionaryWithObjectsAndKeys: @"Did fail to receive ad" ,@"message", nil];
@@ -103,6 +104,16 @@
 }
 
 #pragma Properties
+
+-(void)setHeight_:(id)height_
+{
+	height = [TiUtils floatValue:height_];
+}
+
+-(void)setWidth_:(id)width_
+{
+	width = [TiUtils floatValue:width_];
+}
 
 -(void)setPublisher_:(id)publisher_
 {
