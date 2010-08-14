@@ -12,9 +12,7 @@
 
 @private
 	NSTimer *refreshTimer;
-	AdMobView* admob;	
-	
-	// properties
+	AdMobView* admob;
 	NSString* publisher;
 	BOOL test;
 	float refresh;
@@ -30,5 +28,7 @@
 @property (nonatomic, retain) UIColor* adBackgroundColor;
 @property (nonatomic, retain) UIColor* primaryTextColor;
 @property (nonatomic, retain) UIColor* secondaryTextColor;
+@property (nonatomic, retain) NSTimer *refreshTimer; 
+@property (nonatomic, retain) AdMobView* admob; 
 
 @end
