@@ -25,9 +25,9 @@
 	self.backgroundColor = nil;
 	self.primaryTextColor = nil;
 	self.secondaryTextColor = nil;
-	
-	RELEASE_TO_NIL(refreshTimer);
-	RELEASE_TO_NIL(admob);
+	[refreshTimer invalidate];
+	self.refreshTimer = nil;
+        Self.admob = nil;
 	[super dealloc];
 }
 
@@ -51,7 +51,7 @@
 {
 	if (admob==nil)
 	{
-        admob = [[AdMobView requestAdOfSize:CGSizeMake(width, height) withDelegate:self] retain];
+        self.admob = [AdMobView requestAdOfSize:CGSizeMake(width, height) withDelegate:self];
         [self addSubview:admob];
 	}
 	admob.frame = CGRectMake(0, 0, width, height);
@@ -66,15 +66,15 @@
 }
 
 - (UIColor *)adBackgroundColorForAd:(AdMobView *)adView {
-	return self.adBackgroundColor;
+	return [self.adBackgroundColor autorelease];
 }
 
 - (UIColor *)primaryTextColorForAd:(AdMobView *)adView {
-	return self.primaryTextColor;
+	return [self.primaryTextColor autorelease]; 
 }
 
 - (UIColor *)secondaryTextColorForAd:(AdMobView *)adView {
-	return self.secondaryTextColor;
+	return [self.secondaryTextColor autorelease]; 
 }
 
 - (BOOL)useTestAd {
@@ -87,7 +87,7 @@
 
 - (void)didReceiveAd:(AdMobView *)adView {
 	[refreshTimer invalidate];
-	refreshTimer = [NSTimer scheduledTimerWithTimeInterval:(refresh > AD_REFRESH_PERIOD ? refresh : AD_REFRESH_PERIOD)
+	self.refreshTimer = [NSTimer scheduledTimerWithTimeInterval:(refresh > AD_REFRESH_PERIOD ? refresh : AD_REFRESH_PERIOD)
 													target:self
 												  selector:@selector(refreshAd:)
 												  userInfo:nil
