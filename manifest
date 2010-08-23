@@ -2,12 +2,16 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-name: Ad
-moduleid: jp.masuidrive.ti.ad
 version: 0.1
-description: admob
-author: masuidrive
+description: AdMob module
+author: Yuichiro MASUI <masui@masuidrive.jp> (masuidrive)
 license: MIT
-copyright: Copyright (c) 2010 by masuidrive
+copyright: Copyright (c) 2010 Yuichiro MASUI
+
+
+# these should not be edited
+name: tiadmob
+moduleid: jp.masuidrive.ti.admob
+guid: d356c26b-b4cf-4d35-b95d-471bfb49d8ea
 platform: iphone
-minsdk: 1.3.2
+minsdk: 1.4.0

@@ -15,7 +15,7 @@
 
 @implementation TiAdMobView
 @synthesize publisher, test, refresh, adBackgroundColor, primaryTextColor, secondaryTextColor;
-
+@synthesize refreshTimer, admob;
 
 #pragma mark Cleanup 
 
@@ -27,7 +27,7 @@
 	self.secondaryTextColor = nil;
 	[refreshTimer invalidate];
 	self.refreshTimer = nil;
-        Self.admob = nil;
+	self.admob = nil;
 	[super dealloc];
 }
 

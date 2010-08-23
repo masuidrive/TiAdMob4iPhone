@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* JpMasuidriveTiAdmobModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* JpMasuidriveTiAdmobModule.h */; };
+		24DD6CFA1134B3F500162E58 /* JpMasuidriveTiAdmobModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* JpMasuidriveTiAdmobModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.m */; };
+		59DEDB1912225E4C00E21538 /* libAdMob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DEDB1812225E4C00E21538 /* libAdMob.a */; };
+		59DEDB2612225E6600E21538 /* AdModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB2012225E6600E21538 /* AdModule.h */; };
+		59DEDB2712225E6600E21538 /* AdModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB2112225E6600E21538 /* AdModule.m */; };
+		59DEDB2812225E6600E21538 /* TiAdMobView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB2212225E6600E21538 /* TiAdMobView.h */; };
+		59DEDB2912225E6600E21538 /* TiAdMobView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB2312225E6600E21538 /* TiAdMobView.m */; };
+		59DEDB2A12225E6600E21538 /* TiAdMobViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB2412225E6600E21538 /* TiAdMobViewProxy.h */; };
+		59DEDB2B12225E6600E21538 /* TiAdMobViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB2512225E6600E21538 /* TiAdMobViewProxy.m */; };
+		59DEDB3912225E9D00E21538 /* AdMobDelegateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB3512225E9D00E21538 /* AdMobDelegateProtocol.h */; };
+		59DEDB3A12225E9D00E21538 /* AdMobInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB3612225E9D00E21538 /* AdMobInterstitialAd.h */; };
+		59DEDB3B12225E9D00E21538 /* AdMobInterstitialDelegateProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB3712225E9D00E21538 /* AdMobInterstitialDelegateProtocol.h */; };
+		59DEDB3C12225E9D00E21538 /* AdMobView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB3812225E9D00E21538 /* AdMobView.h */; };
+		59DEDB6B122264AD00E21538 /* CDataScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB55122264AD00E21538 /* CDataScanner.h */; };
+		59DEDB6C122264AD00E21538 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB56122264AD00E21538 /* CDataScanner.m */; };
+		59DEDB6D122264AD00E21538 /* CDataScanner_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB58122264AD00E21538 /* CDataScanner_Extensions.h */; };
+		59DEDB6E122264AD00E21538 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB59122264AD00E21538 /* CDataScanner_Extensions.m */; };
+		59DEDB6F122264AD00E21538 /* NSCharacterSet_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB5A122264AD00E21538 /* NSCharacterSet_Extensions.h */; };
+		59DEDB70122264AD00E21538 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB5B122264AD00E21538 /* NSCharacterSet_Extensions.m */; };
+		59DEDB71122264AD00E21538 /* NSDictionary_JSONExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB5C122264AD00E21538 /* NSDictionary_JSONExtensions.h */; };
+		59DEDB72122264AD00E21538 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB5D122264AD00E21538 /* NSDictionary_JSONExtensions.m */; };
+		59DEDB73122264AD00E21538 /* NSScanner_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB5E122264AD00E21538 /* NSScanner_Extensions.h */; };
+		59DEDB74122264AD00E21538 /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB5F122264AD00E21538 /* NSScanner_Extensions.m */; };
+		59DEDB75122264AD00E21538 /* CJSONDataSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB61122264AD00E21538 /* CJSONDataSerializer.h */; };
+		59DEDB76122264AD00E21538 /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB62122264AD00E21538 /* CJSONDataSerializer.m */; };
+		59DEDB77122264AD00E21538 /* CJSONDeserializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB63122264AD00E21538 /* CJSONDeserializer.h */; };
+		59DEDB78122264AD00E21538 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB64122264AD00E21538 /* CJSONDeserializer.m */; };
+		59DEDB79122264AD00E21538 /* CJSONScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB65122264AD00E21538 /* CJSONScanner.h */; };
+		59DEDB7A122264AD00E21538 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB66122264AD00E21538 /* CJSONScanner.m */; };
+		59DEDB7B122264AD00E21538 /* CJSONSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB67122264AD00E21538 /* CJSONSerializer.h */; };
+		59DEDB7C122264AD00E21538 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB68122264AD00E21538 /* CJSONSerializer.m */; };
+		59DEDB7D122264AD00E21538 /* CSerializedJSONData.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB69122264AD00E21538 /* CSerializedJSONData.h */; };
+		59DEDB7E122264AD00E21538 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB6A122264AD00E21538 /* CSerializedJSONData.m */; };
+		AA747D9F0F9514B9006C5449 /* JpMasuidriveTiAdmob_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* JpMasuidriveTiAdmob_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = tiadmob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* JpMasuidriveTiAdmobModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JpMasuidriveTiAdmobModule.h; path = Classes/JpMasuidriveTiAdmobModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* JpMasuidriveTiAdmobModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JpMasuidriveTiAdmobModule.m; path = Classes/JpMasuidriveTiAdmobModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JpMasuidriveTiAdmobModuleAssets.h; path = Classes/JpMasuidriveTiAdmobModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JpMasuidriveTiAdmobModuleAssets.m; path = Classes/JpMasuidriveTiAdmobModuleAssets.m; sourceTree = "<group>"; };
+		59DEDB1812225E4C00E21538 /* libAdMob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMob.a; path = AdMob/libAdMob.a; sourceTree = "<group>"; };
+		59DEDB2012225E6600E21538 /* AdModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdModule.h; path = Classes/AdModule.h; sourceTree = "<group>"; };
+		59DEDB2112225E6600E21538 /* AdModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdModule.m; path = Classes/AdModule.m; sourceTree = "<group>"; };
+		59DEDB2212225E6600E21538 /* TiAdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiAdMobView.h; path = Classes/TiAdMobView.h; sourceTree = "<group>"; };
+		59DEDB2312225E6600E21538 /* TiAdMobView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiAdMobView.m; path = Classes/TiAdMobView.m; sourceTree = "<group>"; };
+		59DEDB2412225E6600E21538 /* TiAdMobViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiAdMobViewProxy.h; path = Classes/TiAdMobViewProxy.h; sourceTree = "<group>"; };
+		59DEDB2512225E6600E21538 /* TiAdMobViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiAdMobViewProxy.m; path = Classes/TiAdMobViewProxy.m; sourceTree = "<group>"; };
+		59DEDB3512225E9D00E21538 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdMobDelegateProtocol.h; path = AdMob/AdMobDelegateProtocol.h; sourceTree = "<group>"; };
+		59DEDB3612225E9D00E21538 /* AdMobInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdMobInterstitialAd.h; path = AdMob/AdMobInterstitialAd.h; sourceTree = "<group>"; };
+		59DEDB3712225E9D00E21538 /* AdMobInterstitialDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdMobInterstitialDelegateProtocol.h; path = AdMob/AdMobInterstitialDelegateProtocol.h; sourceTree = "<group>"; };
+		59DEDB3812225E9D00E21538 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdMobView.h; path = AdMob/AdMobView.h; sourceTree = "<group>"; };
+		59DEDB55122264AD00E21538 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataScanner.h; path = TouchJSON/CDataScanner.h; sourceTree = "<group>"; };
+		59DEDB56122264AD00E21538 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDataScanner.m; path = TouchJSON/CDataScanner.m; sourceTree = "<group>"; };
+		59DEDB58122264AD00E21538 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		59DEDB59122264AD00E21538 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		59DEDB5A122264AD00E21538 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
+		59DEDB5B122264AD00E21538 /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
+		59DEDB5C122264AD00E21538 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		59DEDB5D122264AD00E21538 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		59DEDB5E122264AD00E21538 /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScanner_Extensions.h; sourceTree = "<group>"; };
+		59DEDB5F122264AD00E21538 /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScanner_Extensions.m; sourceTree = "<group>"; };
+		59DEDB61122264AD00E21538 /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDataSerializer.h; sourceTree = "<group>"; };
+		59DEDB62122264AD00E21538 /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDataSerializer.m; sourceTree = "<group>"; };
+		59DEDB63122264AD00E21538 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		59DEDB64122264AD00E21538 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		59DEDB65122264AD00E21538 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		59DEDB66122264AD00E21538 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		59DEDB67122264AD00E21538 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		59DEDB68122264AD00E21538 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		59DEDB69122264AD00E21538 /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSerializedJSONData.h; sourceTree = "<group>"; };
+		59DEDB6A122264AD00E21538 /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* JpMasuidriveTiAdmob_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpMasuidriveTiAdmob_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libJpMasuidriveTiAdmob.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJpMasuidriveTiAdmob.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				59DEDB1912225E4C00E21538 /* libAdMob.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libJpMasuidriveTiAdmob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* tiadmob */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = tiadmob;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				59DEDB1812225E4C00E21538 /* libAdMob.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				59DEDB2012225E6600E21538 /* AdModule.h */,
+				59DEDB2112225E6600E21538 /* AdModule.m */,
+				59DEDB2212225E6600E21538 /* TiAdMobView.h */,
+				59DEDB2312225E6600E21538 /* TiAdMobView.m */,
+				59DEDB2412225E6600E21538 /* TiAdMobViewProxy.h */,
+				59DEDB2512225E6600E21538 /* TiAdMobViewProxy.m */,
+				24DE9E0F11C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* JpMasuidriveTiAdmobModule.h */,
+				24DD6CF81134B3F500162E58 /* JpMasuidriveTiAdmobModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				59DEDB541222645600E21538 /* TouchJSON */,
+				59DEDB3412225E8600E21538 /* AdMob */,
+				AA747D9E0F9514B9006C5449 /* JpMasuidriveTiAdmob_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		59DEDB3412225E8600E21538 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				59DEDB3512225E9D00E21538 /* AdMobDelegateProtocol.h */,
+				59DEDB3612225E9D00E21538 /* AdMobInterstitialAd.h */,
+				59DEDB3712225E9D00E21538 /* AdMobInterstitialDelegateProtocol.h */,
+				59DEDB3812225E9D00E21538 /* AdMobView.h */,
+			);
+			name = AdMob;
+			sourceTree = "<group>";
+		};
+		59DEDB541222645600E21538 /* TouchJSON */ = {
+			isa = PBXGroup;
+			children = (
+				59DEDB55122264AD00E21538 /* CDataScanner.h */,
+				59DEDB56122264AD00E21538 /* CDataScanner.m */,
+				59DEDB57122264AD00E21538 /* Extensions */,
+				59DEDB60122264AD00E21538 /* JSON */,
+			);
+			name = TouchJSON;
+			sourceTree = "<group>";
+		};
+		59DEDB57122264AD00E21538 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				59DEDB58122264AD00E21538 /* CDataScanner_Extensions.h */,
+				59DEDB59122264AD00E21538 /* CDataScanner_Extensions.m */,
+				59DEDB5A122264AD00E21538 /* NSCharacterSet_Extensions.h */,
+				59DEDB5B122264AD00E21538 /* NSCharacterSet_Extensions.m */,
+				59DEDB5C122264AD00E21538 /* NSDictionary_JSONExtensions.h */,
+				59DEDB5D122264AD00E21538 /* NSDictionary_JSONExtensions.m */,
+				59DEDB5E122264AD00E21538 /* NSScanner_Extensions.h */,
+				59DEDB5F122264AD00E21538 /* NSScanner_Extensions.m */,
+			);
+			name = Extensions;
+			path = TouchJSON/Extensions;
+			sourceTree = "<group>";
+		};
+		59DEDB60122264AD00E21538 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				59DEDB61122264AD00E21538 /* CJSONDataSerializer.h */,
+				59DEDB62122264AD00E21538 /* CJSONDataSerializer.m */,
+				59DEDB63122264AD00E21538 /* CJSONDeserializer.h */,
+				59DEDB64122264AD00E21538 /* CJSONDeserializer.m */,
+				59DEDB65122264AD00E21538 /* CJSONScanner.h */,
+				59DEDB66122264AD00E21538 /* CJSONScanner.m */,
+				59DEDB67122264AD00E21538 /* CJSONSerializer.h */,
+				59DEDB68122264AD00E21538 /* CJSONSerializer.m */,
+				59DEDB69122264AD00E21538 /* CSerializedJSONData.h */,
+				59DEDB6A122264AD00E21538 /* CSerializedJSONData.m */,
+			);
+			name = JSON;
+			path = TouchJSON/JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* JpMasuidriveTiAdmob_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* JpMasuidriveTiAdmobModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.h in Headers */,
+				59DEDB2612225E6600E21538 /* AdModule.h in Headers */,
+				59DEDB2812225E6600E21538 /* TiAdMobView.h in Headers */,
+				59DEDB2A12225E6600E21538 /* TiAdMobViewProxy.h in Headers */,
+				59DEDB3912225E9D00E21538 /* AdMobDelegateProtocol.h in Headers */,
+				59DEDB3A12225E9D00E21538 /* AdMobInterstitialAd.h in Headers */,
+				59DEDB3B12225E9D00E21538 /* AdMobInterstitialDelegateProtocol.h in Headers */,
+				59DEDB3C12225E9D00E21538 /* AdMobView.h in Headers */,
+				59DEDB6B122264AD00E21538 /* CDataScanner.h in Headers */,
+				59DEDB6D122264AD00E21538 /* CDataScanner_Extensions.h in Headers */,
+				59DEDB6F122264AD00E21538 /* NSCharacterSet_Extensions.h in Headers */,
+				59DEDB71122264AD00E21538 /* NSDictionary_JSONExtensions.h in Headers */,
+				59DEDB73122264AD00E21538 /* NSScanner_Extensions.h in Headers */,
+				59DEDB75122264AD00E21538 /* CJSONDataSerializer.h in Headers */,
+				59DEDB77122264AD00E21538 /* CJSONDeserializer.h in Headers */,
+				59DEDB79122264AD00E21538 /* CJSONScanner.h in Headers */,
+				59DEDB7B122264AD00E21538 /* CJSONSerializer.h in Headers */,
+				59DEDB7D122264AD00E21538 /* CSerializedJSONData.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* tiadmob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tiadmob" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiadmob;
+			productName = tiadmob;
+			productReference = D2AAC07E0554694100DB518D /* libJpMasuidriveTiAdmob.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tiadmob" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* tiadmob */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* tiadmob */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* JpMasuidriveTiAdmobModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.m in Sources */,
+				59DEDB2712225E6600E21538 /* AdModule.m in Sources */,
+				59DEDB2912225E6600E21538 /* TiAdMobView.m in Sources */,
+				59DEDB2B12225E6600E21538 /* TiAdMobViewProxy.m in Sources */,
+				59DEDB6C122264AD00E21538 /* CDataScanner.m in Sources */,
+				59DEDB6E122264AD00E21538 /* CDataScanner_Extensions.m in Sources */,
+				59DEDB70122264AD00E21538 /* NSCharacterSet_Extensions.m in Sources */,
+				59DEDB72122264AD00E21538 /* NSDictionary_JSONExtensions.m in Sources */,
+				59DEDB74122264AD00E21538 /* NSScanner_Extensions.m in Sources */,
+				59DEDB76122264AD00E21538 /* CJSONDataSerializer.m in Sources */,
+				59DEDB78122264AD00E21538 /* CJSONDeserializer.m in Sources */,
+				59DEDB7A122264AD00E21538 /* CJSONScanner.m in Sources */,
+				59DEDB7C122264AD00E21538 /* CJSONSerializer.m in Sources */,
+				59DEDB7E122264AD00E21538 /* CSerializedJSONData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* tiadmob */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/JpMasuidriveTiAdmob.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JpMasuidriveTiAdmob_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AdMob\"",
+				);
+				PRODUCT_NAME = JpMasuidriveTiAdmob;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/JpMasuidriveTiAdmob.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JpMasuidriveTiAdmob_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AdMob\"",
+				);
+				PRODUCT_NAME = JpMasuidriveTiAdmob;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tiadmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tiadmob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

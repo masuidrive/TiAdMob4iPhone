@@ -4,7 +4,7 @@
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
-#import "AdModule.h"
+#import "JpMasuidriveTiAdmobModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
@@ -13,7 +13,21 @@
 #import "AdMobView.h"
 #import "TiAdMobViewProxy.h"
 
-@implementation AdModule
+@implementation JpMasuidriveTiAdmobModule
+
+#pragma mark Internal
+
+// this is generated for your module, please do not change it
+-(id)moduleGUID
+{
+	return @"b409ac9d-8f54-4625-b3c8-d113a4b2e3f5";
+}
+
+// this is generated for your module, please do not change it
+-(NSString*)moduleId
+{
+	return @"jp.masuidrive.ti.admob";
+}
 
 #pragma mark Lifecycle
 
@@ -22,6 +36,7 @@
 	// this method is called when the module is first loaded
 	// you *must* call the superclass
 	[super startup];
+	
 	NSLog(@"[INFO] %@ loaded",self);
 }
 

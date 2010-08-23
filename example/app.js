@@ -9,16 +9,20 @@ var window = Ti.UI.createWindow({
   backgroundColor: '#0000ff'
 });
 
-var Ad = require('Ad');
+var Ad = require('jp.masuidrive.ti.admob');
 var admob = Ad.createAdMob({
-    publisher: "Your ID", // required
+    test: true,
+    publisher: "Your Publisher ID", // required
+    top: ( 320 - 48 ) / 2,
+    left: 0,
     width: 320, // required
     height: 48, // required
     adBackgroundColor: "#ffffff",
     primaryTextColor: "#000000",
     secondaryTextColor: "#000000",
-    refresh: 12.5
+    refresh: 30.0
 });
+
 admob.addEventListener('error', function(error) {
     alert(error.message);
     window.remove(admob);

@@ -6,9 +6,8 @@
  */
 #import "TiModule.h"
 
-@interface AdModule : TiModule
+@interface JpMasuidriveTiAdmobModule : TiModule 
 {
-
 }
 
 @end
