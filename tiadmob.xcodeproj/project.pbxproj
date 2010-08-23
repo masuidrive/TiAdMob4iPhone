@@ -27,8 +27,6 @@
 		24DE9E1111C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.m */; };
 		59DEDB1912225E4C00E21538 /* libAdMob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DEDB1812225E4C00E21538 /* libAdMob.a */; };
-		59DEDB2612225E6600E21538 /* AdModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB2012225E6600E21538 /* AdModule.h */; };
-		59DEDB2712225E6600E21538 /* AdModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB2112225E6600E21538 /* AdModule.m */; };
 		59DEDB2812225E6600E21538 /* TiAdMobView.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB2212225E6600E21538 /* TiAdMobView.h */; };
 		59DEDB2912225E6600E21538 /* TiAdMobView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59DEDB2312225E6600E21538 /* TiAdMobView.m */; };
 		59DEDB2A12225E6600E21538 /* TiAdMobViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 59DEDB2412225E6600E21538 /* TiAdMobViewProxy.h */; };
@@ -78,8 +76,6 @@
 		24DE9E0F11C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JpMasuidriveTiAdmobModuleAssets.h; path = Classes/JpMasuidriveTiAdmobModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JpMasuidriveTiAdmobModuleAssets.m; path = Classes/JpMasuidriveTiAdmobModuleAssets.m; sourceTree = "<group>"; };
 		59DEDB1812225E4C00E21538 /* libAdMob.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdMob.a; path = AdMob/libAdMob.a; sourceTree = "<group>"; };
-		59DEDB2012225E6600E21538 /* AdModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdModule.h; path = Classes/AdModule.h; sourceTree = "<group>"; };
-		59DEDB2112225E6600E21538 /* AdModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AdModule.m; path = Classes/AdModule.m; sourceTree = "<group>"; };
 		59DEDB2212225E6600E21538 /* TiAdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiAdMobView.h; path = Classes/TiAdMobView.h; sourceTree = "<group>"; };
 		59DEDB2312225E6600E21538 /* TiAdMobView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiAdMobView.m; path = Classes/TiAdMobView.m; sourceTree = "<group>"; };
 		59DEDB2412225E6600E21538 /* TiAdMobViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiAdMobViewProxy.h; path = Classes/TiAdMobViewProxy.h; sourceTree = "<group>"; };
@@ -157,8 +153,6 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				59DEDB2012225E6600E21538 /* AdModule.h */,
-				59DEDB2112225E6600E21538 /* AdModule.m */,
 				59DEDB2212225E6600E21538 /* TiAdMobView.h */,
 				59DEDB2312225E6600E21538 /* TiAdMobView.m */,
 				59DEDB2412225E6600E21538 /* TiAdMobViewProxy.h */,
@@ -248,7 +242,6 @@
 				AA747D9F0F9514B9006C5449 /* JpMasuidriveTiAdmob_Prefix.pch in Headers */,
 				24DD6CF91134B3F500162E58 /* JpMasuidriveTiAdmobModule.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.h in Headers */,
-				59DEDB2612225E6600E21538 /* AdModule.h in Headers */,
 				59DEDB2812225E6600E21538 /* TiAdMobView.h in Headers */,
 				59DEDB2A12225E6600E21538 /* TiAdMobViewProxy.h in Headers */,
 				59DEDB3912225E9D00E21538 /* AdMobDelegateProtocol.h in Headers */,
@@ -330,7 +323,6 @@
 			files = (
 				24DD6CFA1134B3F500162E58 /* JpMasuidriveTiAdmobModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* JpMasuidriveTiAdmobModuleAssets.m in Sources */,
-				59DEDB2712225E6600E21538 /* AdModule.m in Sources */,
 				59DEDB2912225E6600E21538 /* TiAdMobView.m in Sources */,
 				59DEDB2B12225E6600E21538 /* TiAdMobViewProxy.m in Sources */,
 				59DEDB6C122264AD00E21538 /* CDataScanner.m in Sources */,

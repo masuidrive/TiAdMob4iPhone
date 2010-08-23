@@ -13,7 +13,7 @@ var Ad = require('jp.masuidrive.ti.admob');
 var admob = Ad.createAdMob({
     test: true,
     publisher: "Your Publisher ID", // required
-    top: ( 320 - 48 ) / 2,
+    top: ( 480 - 48 ) / 2,
     left: 0,
     width: 320, // required
     height: 48, // required
