@@ -14,7 +14,7 @@ HOW TO USE IT
 	
 	var Ad = require('Ad');
 	var admob = Ad.createAdMob({
-	    publisher: "Your ID", // required
+	    publisher: "Your Publisher ID", // required
 	    top: 0,
 	    left: 0,
 	    width: 320, // required
@@ -22,7 +22,7 @@ HOW TO USE IT
 	    adBackgroundColor: "#ffffff",
 	    primaryTextColor: "#000000",
 	    secondaryTextColor: "#000000",
-	    refresh: 12.5
+	    refresh: 30.0
 	});
 	admob.addEventListener('error', function(error) {
 	    alert(error.message);
