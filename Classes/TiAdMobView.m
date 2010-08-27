@@ -66,15 +66,15 @@
 }
 
 - (UIColor *)adBackgroundColorForAd:(AdMobView *)adView {
-	return [self.adBackgroundColor autorelease];
+	return self.adBackgroundColor;
 }
 
 - (UIColor *)primaryTextColorForAd:(AdMobView *)adView {
-	return [self.primaryTextColor autorelease]; 
+	return self.primaryTextColor;
 }
 
 - (UIColor *)secondaryTextColorForAd:(AdMobView *)adView {
-	return [self.secondaryTextColor autorelease]; 
+	return self.secondaryTextColor;
 }
 
 - (BOOL)useTestAd {
@@ -138,7 +138,7 @@
 	}
 	else
 	{
-		TiColor *ticolor = [TiUtils colorValue:color];
+		TiColor* ticolor = [TiUtils colorValue:color];
 		self.adBackgroundColor = [ticolor _color];
 	}
 }
@@ -151,7 +151,7 @@
 	}
 	else
 	{
-		TiColor *ticolor = [TiUtils colorValue:color];
+		TiColor* ticolor = [TiUtils colorValue:color];
 		self.primaryTextColor = [ticolor _color];
 	}
 }
@@ -164,7 +164,7 @@
 	}
 	else
 	{
-		TiColor *ticolor = [TiUtils colorValue:color];
+		TiColor* ticolor = [TiUtils colorValue:color];
 		self.secondaryTextColor = [ticolor _color];
 	}
 }
