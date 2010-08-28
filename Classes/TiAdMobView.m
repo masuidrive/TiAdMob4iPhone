@@ -113,7 +113,7 @@
 		color = RGBACOLOR(0.0, 0.0, 0.0, 1.0);
 	}
 	if([color isEqual:[UIColor whiteColor]]) {
-		color = RGBACOLOR(1.0, 1.0, 1.0, 1.0);
+		color = RGBACOLOR(255.0, 255.0, 255.0, 1.0);
 	}
 	return color;
 }
