@@ -103,6 +103,21 @@
 	}
 }
 
+- (UIColor*)colorValue:(id)color_
+{
+	UIColor* color = color_;
+	if (![color isKindOfClass:[UIColor class]]) {
+		color = [[TiUtils colorValue:color] _color];
+	}
+	if([color isEqual:[UIColor blackColor]]) {
+		color = RGBACOLOR(0.0, 0.0, 0.0, 1.0);
+	}
+	if([color isEqual:[UIColor whiteColor]]) {
+		color = RGBACOLOR(1.0, 1.0, 1.0, 1.0);
+	}
+	return color;
+}
+
 #pragma Properties
 
 -(void)setHeight_:(id)height_
@@ -132,41 +147,17 @@
 
 -(void)setAdBackgroundColor_:(id)color
 {
-	if ([color isKindOfClass:[UIColor class]])
-	{
-		self.adBackgroundColor = color;
-	}
-	else
-	{
-		TiColor* ticolor = [TiUtils colorValue:color];
-		self.adBackgroundColor = [ticolor _color];
-	}
+	self.adBackgroundColor = [self colorValue:color];
 }
 
 -(void)setPrimaryTextColor_:(id)color
 {
-	if ([color isKindOfClass:[UIColor class]])
-	{
-		self.primaryTextColor = color;
-	}
-	else
-	{
-		TiColor* ticolor = [TiUtils colorValue:color];
-		self.primaryTextColor = [ticolor _color];
-	}
+	self.primaryTextColor = [self colorValue:color];
 }
 
 -(void)setSecondaryTextColor_:(id)color
 {
-	if ([color isKindOfClass:[UIColor class]])
-	{
-		self.secondaryTextColor = color;
-	}
-	else
-	{
-		TiColor* ticolor = [TiUtils colorValue:color];
-		self.secondaryTextColor = [ticolor _color];
-	}
+	self.secondaryTextColor = [self colorValue:color];
 }
 
 #pragma Public APIs
