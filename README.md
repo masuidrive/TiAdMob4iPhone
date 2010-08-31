@@ -19,7 +19,6 @@ HOW TO USE IT
 	    left: 0,
 	    width: 320, // required
 	    height: 48, // required
-	    backgroundColor: "#ffffff",
 	    adBackgroundColor: "#ffffff",
 	    primaryTextColor: "#000000",
 	    secondaryTextColor: "#000000",
