@@ -12,7 +12,7 @@ HOW TO USE IT
 	  backgroundColor: '#0000ff'
 	});
 	
-	var Ad = require('Ad');
+	var Ad = require('jp.masuidrive.ti.admob');
 	var admob = Ad.createAdMob({
 	    publisher: "Your Publisher ID", // required
 	    top: 0,
