@@ -60,3 +60,5 @@ LICENSE
 MIT License
 
 Copyright 2010 Yuichiro MASUI (masuidrive)
+http://masuidrive.com/
+Twitter: @masuidrive_en
